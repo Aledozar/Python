@@ -15,4 +15,4 @@ if __name__ == '__main__':
             generated_password = generate_random_password(password_length)
             print(f'Your generated password is {generated_password}')
     except ValueError:
-        print('Invalid input, please enter a valid integer for password length')
+        print('Invalid input, please enter a valid integer for password length: ')
